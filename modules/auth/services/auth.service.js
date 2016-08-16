@@ -3,7 +3,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var userService = require('../../projectManager/services/users.service');
 
 function initPassport () {
-
+//test commita
   passport.use('local', new LocalStrategy({
       usernameField: 'login',
       passwordField: 'password'
